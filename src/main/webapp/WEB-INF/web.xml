@@ -203,6 +203,24 @@
     <servlet-name>IsotopesServlet</servlet-name>
     <servlet-class>com.cirdles.IsotopesServlet</servlet-class>
   </servlet>
+  <servlet>
+    <description></description>
+    <display-name>IsotopeSetterServlet</display-name>
+    <servlet-name>IsotopeSetterServlet</servlet-name>
+    <servlet-class>com.cirdles.IsotopeSetterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>IsotopeBackgroundServlet</display-name>
+    <servlet-name>IsotopeBackgroundServlet</servlet-name>
+    <servlet-class>com.cirdles.IsotopeBackgroundServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>ChangeCurrentTaskServlet</display-name>
+    <servlet-name>ChangeCurrentTaskServlet</servlet-name>
+    <servlet-class>com.cirdles.ChangeCurrentTaskServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
     <servlet-name>ClickServlet</servlet-name>
     <url-pattern>/clickServlet/*</url-pattern>
@@ -314,5 +332,17 @@
   <servlet-mapping>
     <servlet-name>IsotopesServlet</servlet-name>
     <url-pattern>/isotopes</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IsotopeSetterServlet</servlet-name>
+    <url-pattern>/isotopesetter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IsotopeBackgroundServlet</servlet-name>
+    <url-pattern>/background</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeCurrentTaskServlet</servlet-name>
+    <url-pattern>/changetask</url-pattern>
   </servlet-mapping>
 </web-app>
